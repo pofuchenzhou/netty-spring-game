@@ -1,0 +1,185 @@
+[2015-08-27 12:30:34,678][INFO, (NettyServer.java:45).run] socket server started at port 8080.
+[2015-08-27 12:30:41,327][ERROR, (HandlerDispatcher.java:128).run] 
+[2015-08-27 12:31:36,147][INFO, (NettyServer.java:45).run] socket server started at port 8080.
+[2015-08-27 12:31:40,529][INFO, (NettyServer.java:45).run] socket server started at port 8080.
+[2015-08-27 12:32:17,365][INFO, (NettyServer.java:45).run] socket server started at port 8080.
+[2015-08-27 12:32:40,094][ERROR, (HandlerDispatcher.java:128).run] io.netty.util.IllegalReferenceCountException: refCnt: 0
+	at io.netty.buffer.AbstractByteBuf.ensureAccessible(AbstractByteBuf.java:1173)
+	at io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1156)
+	at io.netty.buffer.AbstractByteBuf.readInt(AbstractByteBuf.java:612)
+	at cpgame.demo.domain.Command.readString(Command.java:73)
+	at cpgame.demo.domain.GameRequest.readString(GameRequest.java:99)
+	at cpgame.demo.handler.InitHandler.execute(InitHandler.java:23)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.handMessageQueue(HandlerDispatcher.java:140)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.run(HandlerDispatcher.java:126)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[2015-08-27 12:35:28,815][INFO, (NettyServer.java:45).run] socket server started at port 8080.
+[2015-08-27 12:35:40,900][ERROR, (HandlerDispatcher.java:128).run] io.netty.util.IllegalReferenceCountException: refCnt: 0
+	at io.netty.buffer.AbstractByteBuf.ensureAccessible(AbstractByteBuf.java:1173)
+	at io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1156)
+	at io.netty.buffer.AbstractByteBuf.readInt(AbstractByteBuf.java:612)
+	at cpgame.demo.domain.Command.readString(Command.java:73)
+	at cpgame.demo.domain.GameRequest.readString(GameRequest.java:99)
+	at cpgame.demo.handler.InitHandler.execute(InitHandler.java:23)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.handMessageQueue(HandlerDispatcher.java:140)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.run(HandlerDispatcher.java:126)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[2015-08-27 12:36:18,918][ERROR, (HandlerDispatcher.java:128).run] io.netty.util.IllegalReferenceCountException: refCnt: 0
+	at io.netty.buffer.AbstractByteBuf.ensureAccessible(AbstractByteBuf.java:1173)
+	at io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1156)
+	at io.netty.buffer.AbstractByteBuf.readInt(AbstractByteBuf.java:612)
+	at cpgame.demo.domain.Command.readString(Command.java:73)
+	at cpgame.demo.domain.GameRequest.readString(GameRequest.java:99)
+	at cpgame.demo.handler.InitHandler.execute(InitHandler.java:23)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.handMessageQueue(HandlerDispatcher.java:140)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.run(HandlerDispatcher.java:126)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[2015-08-27 13:40:25,879][INFO, (NettyServer.java:45).run] socket server started at port 8080.
+[2015-08-27 13:42:03,420][ERROR, (HandlerDispatcher.java:128).run] io.netty.util.IllegalReferenceCountException: refCnt: 0
+	at io.netty.buffer.AbstractByteBuf.ensureAccessible(AbstractByteBuf.java:1173)
+	at io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1156)
+	at io.netty.buffer.AbstractByteBuf.readInt(AbstractByteBuf.java:612)
+	at cpgame.demo.domain.Command.readString(Command.java:73)
+	at cpgame.demo.domain.GameRequest.readString(GameRequest.java:99)
+	at cpgame.demo.handler.InitHandler.execute(InitHandler.java:23)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.handMessageQueue(HandlerDispatcher.java:140)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.run(HandlerDispatcher.java:126)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[2015-08-27 13:44:35,705][INFO, (NettyServer.java:45).run] socket server started at port 8080.
+[2015-08-27 13:48:18,028][ERROR, (InitHandler.java:23).execute] Are you ok?
+[2015-08-27 13:48:28,120][ERROR, (InitHandler.java:23).execute] Are you ok?
+[2015-08-27 13:48:41,516][INFO, (NettyServer.java:45).run] socket server started at port 8080.
+[2015-08-27 13:49:01,608][ERROR, (InitHandler.java:23).execute] Are you ok?
+[2015-08-27 13:49:56,629][INFO, (NettyServer.java:45).run] http server started at port 8080.
+[2015-08-27 13:50:00,485][ERROR, (InitHandler.java:23).execute] Are you ok?
+[2015-08-27 13:51:14,875][INFO, (NettyServer.java:45).run] websocket_text server started at port 8080.
+[2015-08-27 13:51:40,929][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 13:51:40,933][ERROR, (HandlerDispatcher.java:128).run] java.lang.ClassCastException: java.util.LinkedList cannot be cast to io.netty.buffer.ByteBuf
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.handMessageQueue(HandlerDispatcher.java:153)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.run(HandlerDispatcher.java:126)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[2015-08-27 13:51:43,857][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 13:51:43,858][ERROR, (HandlerDispatcher.java:128).run] java.lang.ClassCastException: java.util.LinkedList cannot be cast to io.netty.buffer.ByteBuf
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.handMessageQueue(HandlerDispatcher.java:153)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.run(HandlerDispatcher.java:126)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[2015-08-27 13:52:53,395][INFO, (NettyServer.java:45).run] websocket_text server started at port 8080.
+[2015-08-27 13:53:15,313][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 13:53:15,317][ERROR, (HandlerDispatcher.java:128).run] java.lang.ClassCastException: io.netty.handler.codec.http.websocketx.TextWebSocketFrame cannot be cast to io.netty.handler.codec.http.FullHttpRequest
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.handMessageQueue(HandlerDispatcher.java:148)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.run(HandlerDispatcher.java:126)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[2015-08-27 13:58:55,936][INFO, (NettyServer.java:45).run] websocket_text server started at port 8080.
+[2015-08-27 13:59:06,387][INFO, (NettyServer.java:45).run] websocket_text server started at port 8080.
+[2015-08-27 13:59:09,836][ERROR, (InitHandler.java:23).execute] Are you ok?
+[2015-08-27 13:59:35,547][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 13:59:35,552][WARN, (Slf4JLogger.java:151).warn] Failed to release a message.
+io.netty.util.IllegalReferenceCountException: refCnt: 0, decrement: 1
+	at io.netty.buffer.AbstractReferenceCountedByteBuf.release(AbstractReferenceCountedByteBuf.java:115)
+	at io.netty.util.ReferenceCountUtil.release(ReferenceCountUtil.java:68)
+	at io.netty.channel.ChannelOutboundBuffer.safeRelease(ChannelOutboundBuffer.java:509)
+	at io.netty.channel.ChannelOutboundBuffer.remove(ChannelOutboundBuffer.java:268)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:266)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:682)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:271)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:651)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.flush(DefaultChannelPipeline.java:1038)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeFlush(DefaultChannelHandlerContext.java:675)
+	at io.netty.channel.DefaultChannelHandlerContext.flush(DefaultChannelHandlerContext.java:656)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:115)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeFlush(DefaultChannelHandlerContext.java:675)
+	at io.netty.channel.DefaultChannelHandlerContext.access$1600(DefaultChannelHandlerContext.java:29)
+	at io.netty.channel.DefaultChannelHandlerContext$WriteTask.run(DefaultChannelHandlerContext.java:908)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Unknown Source)
+[2015-08-27 14:05:45,943][INFO, (NettyServer.java:45).run] websocket_text server started at port 8080.
+[2015-08-27 14:06:09,251][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:06:23,581][WARN, (Slf4JLogger.java:151).warn] Failed to release a message.
+io.netty.util.IllegalReferenceCountException: refCnt: 0, decrement: 1
+	at io.netty.buffer.AbstractReferenceCountedByteBuf.release(AbstractReferenceCountedByteBuf.java:115)
+	at io.netty.util.ReferenceCountUtil.release(ReferenceCountUtil.java:68)
+	at io.netty.channel.ChannelOutboundBuffer.safeRelease(ChannelOutboundBuffer.java:509)
+	at io.netty.channel.ChannelOutboundBuffer.remove(ChannelOutboundBuffer.java:268)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:266)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:682)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:271)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:651)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.flush(DefaultChannelPipeline.java:1038)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeFlush(DefaultChannelHandlerContext.java:675)
+	at io.netty.channel.DefaultChannelHandlerContext.flush(DefaultChannelHandlerContext.java:656)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:115)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeFlush(DefaultChannelHandlerContext.java:675)
+	at io.netty.channel.DefaultChannelHandlerContext.access$1600(DefaultChannelHandlerContext.java:29)
+	at io.netty.channel.DefaultChannelHandlerContext$WriteTask.run(DefaultChannelHandlerContext.java:908)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Unknown Source)
+[2015-08-27 14:10:57,948][INFO, (NettyServer.java:45).run] websocket_text server started at port 8080.
+[2015-08-27 14:11:09,319][ERROR, (HandlerDispatcher.java:132).run] java.lang.ClassCastException: io.netty.buffer.UnpooledHeapByteBuf cannot be cast to java.util.List
+	at cpgame.demo.domain.GameResponse.write(GameResponse.java:77)
+	at cpgame.demo.domain.GameResponse.<init>(GameResponse.java:37)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.handMessageQueue(HandlerDispatcher.java:140)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.run(HandlerDispatcher.java:130)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[2015-08-27 14:11:56,130][INFO, (NettyServer.java:45).run] websocket_text server started at port 8080.
+[2015-08-27 14:12:02,713][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:12:02,718][ERROR, (HandlerDispatcher.java:132).run] java.lang.ClassCastException: java.util.LinkedList cannot be cast to io.netty.buffer.ByteBuf
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.handMessageQueue(HandlerDispatcher.java:160)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.run(HandlerDispatcher.java:130)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[2015-08-27 14:12:47,770][INFO, (NettyServer.java:45).run] websocket_text server started at port 8080.
+[2015-08-27 14:12:54,859][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:21:42,116][INFO, (NettyServer.java:45).run] websocket_text server started at port 8080.
+[2015-08-27 14:21:51,899][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:22:13,408][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:22:14,448][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:22:14,938][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:22:15,338][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:22:15,598][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:22:15,838][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:22:18,949][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:22:20,339][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:22:37,331][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:22:45,427][INFO, (NettyServer.java:45).run] websocket_text server started at port 8080.
+[2015-08-27 14:22:52,441][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:23:05,799][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:31:40,958][ERROR, (HandlerDispatcher.java:132).run] java.lang.NullPointerException
+	at cpgame.demo.domain.GameResponse.<init>(GameResponse.java:40)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.handMessageQueue(HandlerDispatcher.java:140)
+	at cpgame.demo.dispatcher.HandlerDispatcher$MessageWorker.run(HandlerDispatcher.java:130)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[2015-08-27 14:31:52,255][ERROR, (InitHandler.java:23).execute] are you ok?
+[2015-08-27 14:32:16,807][ERROR, (InitHandler.java:23).execute] are you ok?

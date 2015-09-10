@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"
+	debug="false">
+	<appender name="CONSOLE.ERR" class="org.apache.log4j.ConsoleAppender">
+		<param name="target" value="System.err" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d][%p, (%F:%L).%M] %m%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="warn" />
+			<param name="LevelMax" value="fatal" />
+			<param name="AcceptOnMatch" value="false" />
+		</filter>
+	</appender>
+	<appender name="CONSOLE.OUT" class="org.apache.log4j.ConsoleAppender">
+		<param name="target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d][%p, (%F:%L).%M] %m%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="debug" />
+			<param name="LevelMax" value="info" />
+			<param name="AcceptOnMatch" value="false" />
+		</filter>
+	</appender>
+	<appender name="FILE" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/log.log" />
+		<param name="Threshold" value="INFO" />
+		<param name="MaxFileSize" value="100MB" />
+		<param name="MaxBackupIndex" value="10" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d][%p, (%F:%L).%M] %m%n" />
+		</layout>
+	</appender>
+	<appender name="error.file" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/error.log" />
+		<param name="Threshold" value="WARN" />
+		<param name="MaxFileSize" value="100MB" />
+		<param name="MaxBackupIndex" value="10" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d][%p, (%F:%L).%M] %m%n" />
+		</layout>
+	</appender>
+	<logger name="org.springframework">
+		<level value="ERROR" />
+	</logger>
+	<logger name="org.json">
+		<level value="ERROR" />
+	</logger>
+	<logger name="org.quartz">
+		<level value="ERROR" />
+	</logger>
+	<logger name="org.apache.commons">
+		<level value="ERROR" />
+	</logger>
+	<logger name="cpgame.demo">
+		<level value="debug" />
+	</logger>
+	<root>
+		<level value="debug" />
+		<appender-ref ref="CONSOLE.ERR" />
+		<appender-ref ref="CONSOLE.OUT" />
+		<appender-ref ref="FILE" />
+		<appender-ref ref="error.file" />
+	</root>
+</log4j:configuration>
